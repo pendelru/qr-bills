@@ -128,21 +128,9 @@ module QRHTMLLayout
       layout += "</div>\n"
 
       layout += "<style>\n"
-      layout += "  @font-face{ \n"
-      layout += "    font-family: \"liberation_sansregular\";\n"
-      layout += "    src: url(\"#{params[:fonts][:eot]}\");\n"
-      layout += "    src: url(\"#{params[:fonts][:eot]}?#iefix\") format(\"embedded-opentype\"),\n"
-      layout += "        url(\"#{params[:fonts][:woff]}\") format(\"woff\"),\n"
-      layout += "        url(\"#{params[:fonts][:ttf]}\") format(\"truetype\"),\n"
-      layout += "        url(\"#{params[:fonts][:svg]}#liberation_sansregular\") format(\"svg\");\n"
-      layout += "    font-weight: normal;\n"
-      layout += "    font-style: normal;\n"
-      layout += "  }\n"
-
       layout += "  .bill_container {\n"
       layout += "    width: 210mm;\n"
       layout += "    height: 105mm;\n"
-      layout += "    font-family: \"liberation_sansregular\";\n"
       layout += "   border: 1px solid #ccc;\n"
       layout += "  }\n"
 
